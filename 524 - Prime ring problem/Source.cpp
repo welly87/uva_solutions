@@ -1,5 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
+// recursive backtracking
+
 #include<stdio.h>
 
 int N;
@@ -38,7 +40,8 @@ void primering(int current, int depth)
 {
 	candidates[depth] = current;
 
-	if (depth == N - 1 && isPrime(current + 1))
+	// check the last number in the circle with one (the beginning of circle)
+	if (depth == N - 1 && isPrime(current + 1)) 
 	{
 		printSolution();
 		return;
@@ -46,11 +49,12 @@ void primering(int current, int depth)
 
 	for (int i = 2; i <= N; i++)
 	{
+		// if not visited yet and current + next is prime 
 		if (!visited[i] && isPrime(current + i))
 		{
-			visited[i] = true;
+			visited[i] = true; // visit
 			primering(i, depth + 1);
-			visited[i] = false;
+			visited[i] = false; // undo visit
 		}
 	}
 }

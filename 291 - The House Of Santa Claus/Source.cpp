@@ -1,5 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
+// recursive backtracking
+
 #include<stdio.h>
 
 bool house[6][6];
