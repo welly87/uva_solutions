@@ -9,6 +9,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "291 - The House Of Santa Cl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "524 - Prime ring problem", "524 - Prime ring problem\524 - Prime ring problem.vcxproj", "{93036662-B952-4AF6-96A9-3EB7C17973CE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "572 - Oil Deposits", "572 - Oil Deposits\572 - Oil Deposits.vcxproj", "{E2500FCD-EFED-4250-A642-A533EF7CB59D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "750 - 8 Queens Chess Problem", "750 - 8 Queens Chess Problem\750 - 8 Queens Chess Problem.vcxproj", "{ADB69D74-8174-453C-ADAE-C8C91637A6D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "583 - Prime Factors", "583 - Prime Factors\583 - Prime Factors.vcxproj", "{4AE94B7D-56F5-4705-9127-E1B41ED4EA7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +33,18 @@ Global
 		{93036662-B952-4AF6-96A9-3EB7C17973CE}.Debug|Win32.Build.0 = Debug|Win32
 		{93036662-B952-4AF6-96A9-3EB7C17973CE}.Release|Win32.ActiveCfg = Release|Win32
 		{93036662-B952-4AF6-96A9-3EB7C17973CE}.Release|Win32.Build.0 = Release|Win32
+		{E2500FCD-EFED-4250-A642-A533EF7CB59D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2500FCD-EFED-4250-A642-A533EF7CB59D}.Debug|Win32.Build.0 = Debug|Win32
+		{E2500FCD-EFED-4250-A642-A533EF7CB59D}.Release|Win32.ActiveCfg = Release|Win32
+		{E2500FCD-EFED-4250-A642-A533EF7CB59D}.Release|Win32.Build.0 = Release|Win32
+		{ADB69D74-8174-453C-ADAE-C8C91637A6D0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ADB69D74-8174-453C-ADAE-C8C91637A6D0}.Debug|Win32.Build.0 = Debug|Win32
+		{ADB69D74-8174-453C-ADAE-C8C91637A6D0}.Release|Win32.ActiveCfg = Release|Win32
+		{ADB69D74-8174-453C-ADAE-C8C91637A6D0}.Release|Win32.Build.0 = Release|Win32
+		{4AE94B7D-56F5-4705-9127-E1B41ED4EA7C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4AE94B7D-56F5-4705-9127-E1B41ED4EA7C}.Debug|Win32.Build.0 = Debug|Win32
+		{4AE94B7D-56F5-4705-9127-E1B41ED4EA7C}.Release|Win32.ActiveCfg = Release|Win32
+		{4AE94B7D-56F5-4705-9127-E1B41ED4EA7C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
